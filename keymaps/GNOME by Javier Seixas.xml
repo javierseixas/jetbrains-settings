@@ -1,0 +1,28 @@
+<keymap version="1" name="GNOME by Javier Seixas" parent="Default for GNOME">
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
+  <action id="Console.History.Browse" />
+  <action id="CopyElement">
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
+  <action id="Git.Commit.And.Push.Executor" />
+  <action id="Hg.Commit.And.Push.Executor" />
+  <action id="Inline">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
+  <action id="PerforceDirect.Edit" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
+  <action id="SafeDelete">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+  </action>
+  <action id="ShowSettings" />
+</keymap>
