@@ -5,6 +5,9 @@
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
+  <action id="ConfigureIcs">
+    <keyboard-shortcut first-keystroke="shift altGraph u" />
+  </action>
   <action id="Console.History.Browse" />
   <action id="CopyElement">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
@@ -27,5 +30,7 @@
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="ctrl alt comma" />
   </action>
-  <action id="ShowSettings" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="shift altGraph s" />
+  </action>
 </keymap>
