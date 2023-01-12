@@ -1,4 +1,7 @@
 <keymap version="1" name="GNOME by Javier Seixas" parent="Default for GNOME">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
