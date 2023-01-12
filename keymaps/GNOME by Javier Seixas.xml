@@ -5,6 +5,11 @@
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
+  <action id="CollapseBlock" />
+  <action id="CommentByBlockComment" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl alt period" />
+  </action>
   <action id="ConfigureIcs">
     <keyboard-shortcut first-keystroke="shift altGraph u" />
   </action>
@@ -13,6 +18,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt k" />
   </action>
   <action id="Git.Commit.And.Push.Executor" />
+  <action id="GotoCustomRegion" />
   <action id="Hg.Commit.And.Push.Executor" />
   <action id="Inline">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
