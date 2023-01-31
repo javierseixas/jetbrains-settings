@@ -45,4 +45,8 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="shift altGraph s" />
   </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
+  <action id="hg4idea.QPushAction" />
 </keymap>
