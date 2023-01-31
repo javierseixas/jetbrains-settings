@@ -33,6 +33,12 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="ctrl alt comma" />
   </action>
