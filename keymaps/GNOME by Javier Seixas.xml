@@ -1,4 +1,7 @@
 <keymap version="1" name="GNOME by Javier Seixas" parent="Default for GNOME">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 0" />
   </action>
@@ -22,6 +25,9 @@
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="ctrl alt plus" />
   </action>
   <action id="Git.Commit.And.Push.Executor" />
   <action id="GotoCustomRegion" />
@@ -56,6 +62,15 @@
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="shift altGraph s" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="shift alt insert" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="shift alt delete" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift alt p" />
