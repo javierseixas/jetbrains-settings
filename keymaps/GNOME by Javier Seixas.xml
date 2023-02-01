@@ -14,6 +14,9 @@
     <keyboard-shortcut first-keystroke="shift altGraph u" />
   </action>
   <action id="Console.History.Browse" />
+  <action id="Console.TableResult.EditValueMaximized">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
   <action id="CopyElement">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
   </action>
@@ -39,6 +42,9 @@
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
@@ -54,5 +60,12 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift alt b" />
+  </action>
+  <action id="ToggleTemporaryLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
   <action id="hg4idea.QPushAction" />
+  <action id="tasks.open.in.browser" />
 </keymap>
