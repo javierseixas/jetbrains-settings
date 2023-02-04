@@ -35,6 +35,9 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
+  <action id="EditBreakpoint">
+    <keyboard-shortcut first-keystroke="shift alt plus" />
+  </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="ctrl alt plus" />
   </action>
@@ -93,6 +96,9 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
+  <action id="ToggleBreakpointEnabled">
+    <keyboard-shortcut first-keystroke="shift alt z" />
+  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="shift alt b" />
   </action>
@@ -101,6 +107,9 @@
   </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift 6" />
+  </action>
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="shift alt plus" />
   </action>
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QGotoFromPatches" />
