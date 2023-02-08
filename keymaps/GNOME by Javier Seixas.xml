@@ -47,9 +47,6 @@
   </action>
   <action id="Git.Commit.And.Push.Executor" />
   <action id="GotoCustomRegion" />
-  <action id="Gradle.RefreshDependencies">
-    <keyboard-shortcut first-keystroke="f" second-keystroke="f" />
-  </action>
   <action id="Hg.Commit.And.Push.Executor" />
   <action id="Inline">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
