@@ -1,8 +1,8 @@
 <templateSet group="MapStruct">
-  <template name="mp" value="$OUTPUT_CLASS$ $INPUT_CLASS$To$OUTPUT_CLASS$($INPUT_CLASS$ $INPUT_VAR$);" description="Creates a mapping method" toReformat="false" toShortenFQNames="true">
+  <template name="mp" value="$OUTPUT_CLASS$ $INPUT_VAR$To$OUTPUT_CLASS$($INPUT_CLASS$ $INPUT_VAR$);" description="Creates a mapping method" toReformat="false" toShortenFQNames="true">
     <variable name="OUTPUT_CLASS" expression="" defaultValue="&quot;OutputClass&quot;" alwaysStopAt="true" />
-    <variable name="INPUT_CLASS" expression="" defaultValue="&quot;InputClass&quot;" alwaysStopAt="true" />
-    <variable name="INPUT_VAR" expression="camelCase(INPUT_CLASS)" defaultValue="" alwaysStopAt="true" />
+    <variable name="INPUT_VAR" expression="" defaultValue="&quot;inputClassVar&quot;" alwaysStopAt="true" />
+    <variable name="INPUT_CLASS" expression="capitalize(INPUT_VAR)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
