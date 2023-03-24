@@ -49,7 +49,12 @@
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="GotoCustomRegion" />
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
   <action id="Hg.Commit.And.Push.Executor" />
+  <action id="ImplementMethods" />
   <action id="Inline">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
